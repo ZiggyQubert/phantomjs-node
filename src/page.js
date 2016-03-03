@@ -11,7 +11,9 @@ export default class Page {
 
 const methods = [
     'open', 'render', 'close', 'property', 'injectJs', 'includeJs', 'openUrl', 'stop', 'renderBase64',
-    'evaluate', 'setting', 'addCookie', 'deleteCookie', 'clearCookies', 'setContent', 'sendEvent'
+    'evaluate', 'setting', 'addCookie', 'deleteCookie', 'clearCookies', 'setContent', 'sendEvent',
+	//page methods with no tests written yet
+	'evaluateAsync', 'evaluateJavaScript', 'getPage', 'goBack', 'goForward', 'go', 'reload', 'switchToFocusedFrame', 'switchToFrame', 'switchToMainFrame', 'switchToParentFrame', 'uploadFile'
 ];
 
 methods.forEach(method => {
